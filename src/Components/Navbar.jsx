@@ -14,6 +14,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import './Navbar.css'
 
 const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Contact'];
@@ -29,7 +30,7 @@ function Navbar(props) {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h6" sx={{ my: 2 }}>
-                MUI
+                UA Learning
             </Typography>
             <Divider />
             <List>
@@ -47,7 +48,7 @@ function Navbar(props) {
     const container = window !== undefined ? () => window().document.body : undefined;
 
     return (
-        <Box sx={{ display: 'flex' }}>
+        <Box >
             <CssBaseline />
             <AppBar component="nav">
                 <Toolbar>
@@ -63,11 +64,11 @@ function Navbar(props) {
                     <Box
                         sx={{
                             backgroundImage: `url('/logo.webp')`,
-                            width: '72px',
+                            width: '68px',
                             height: '70px',
                             backgroundSize: 'cover',
                             backgroundRepeat: 'no-repeat',
-                            borderRadius:'4rem'
+                            borderRadius: '3rem'
                         }}
                     />
 

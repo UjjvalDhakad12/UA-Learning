@@ -8,7 +8,7 @@ export default function Home() {
         <React.Fragment>
             <CssBaseline />
             <Container>
-                <Box sx={{ bgcolor: '#cfe8fc', height: '100vh', width: '100%' }} />
+                <Box sx={{bgcolor: '#cfe8fc', height: '100vh', width: '100%' }} />
             </Container>
         </React.Fragment>
     );
