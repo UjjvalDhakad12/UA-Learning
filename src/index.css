@@ -1,0 +1,10 @@
+/* .plus-jakarta-sans-<uniquifier> {
+
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} */
+
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
