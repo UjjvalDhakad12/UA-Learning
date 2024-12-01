@@ -1,15 +1,14 @@
-import './App.css'
-import Home from './Home'
-import Navbar from './Components/Navbar'
+import React from 'react';
+import Navbar from './Components/Navbar';
+import Input from './Components/Input';
 
 function App() {
-
   return (
     <div>
       <Navbar />
-      <Home /> {/*Main page Home.jsx*/}
+      <Input />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
