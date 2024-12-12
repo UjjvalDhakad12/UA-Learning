@@ -40,16 +40,7 @@ const Input = () => {
                 </button>
             </div>
             <div>
-                <ul
-                    style={{
-                        maxHeight: "300px", // Restricts height
-                        overflowY: "auto",  // Adds vertical scrollbar
-                        border: "1px solid #ddd",
-                        padding: "1rem",
-                        borderRadius: "4px",
-                        background: "#f9f9f9",
-                    }}
-                >
+                <ul className="todo-style">
                     {todos.map((todo, index) => (
                         <li
                             key={index}

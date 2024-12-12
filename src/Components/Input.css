@@ -64,7 +64,17 @@
 
 }
 
-.btn{
+.btn {
     margin-top: 30rem;
 }
 
+
+.todo-style {
+    margin-top: 1rem;
+    max-Height: 395px;
+    overflow-Y: auto;
+    padding: 1rem;
+    border-Radius: 4px;
+    width: 40rem;
+    margin-Left: 18.8rem
+}
