@@ -1,62 +1,70 @@
-.contanier {
+/* From Uiverse.io by 1osm */
+.Message {
+    width: 40rem;
+    height: 40px;
+    background-color: #40414f;
+    transform: translate(0px, 0px);
+    box-shadow: 5px 5px #34343f;
     position: absolute;
     bottom: 0;
+    margin-left: 18rem;
+    border-radius: 3px;
 }
 
-.searchbar {
-    font-size: 1rem;
-    outline: none;
-    position: absolute;
-    width: 50rem;
-    align-items: center;
-    margin-left: 14rem;
-    font-weight: 400;
-    height: 3rem;
-    background-color: #6D435A;
-    color: aliceblue;
-    border: 3px solid transparent;
-    border-image: linear-gradient(45deg, red, pink, yellow, green, blue, orange, purple, cyan, magenta, lime) 1;
-}
-
-.btnsearch {
-    position: relative;
-    margin-left: 60.9rem;
-    width: 3rem;
-    margin-top: 0.1rem;
-    height: 2.6rem;
+.MsgInput {
+    font-size: 18px;
+    background-color: #40414f;
     border: none;
-    cursor: pointer;
+    outline: none;
+    width: 40rem;
+    height: 30px;
     color: white;
-    background-color: #6D435A;
-    padding-bottom: 0.6rem;
+    padding: 1px;
+    font-weight: bold;
 }
 
-@media screen and (max-width: 1000px) {
-    .searchbar {
-        font-size: 1rem;
-        outline: none;
+.send-icon {
+    position: absolute;
+    height: 44px;
+    width: 2rem;
+    background-color: #40414f;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 1px;
+}
+
+.send-icon:hover {
+    color: beige;
+}
+
+@media (max-width: 768px) {
+    .Message {
+        width: 20.3rem;
+        height: 40px;
+        background-color: #40414f;
+        transform: translate(0px, 0px);
+        box-shadow: 5px 5px #34343f;
         position: absolute;
-        width: 22.3rem;
-        align-items: center;
+        bottom: 0;
         margin-left: 0.1rem;
-        height: 3rem;
-        background-color: #6D435A;
-        color: aliceblue;
-        font-weight: 400;
-        border: 2.5px solid transparent;
-        border-image: linear-gradient(45deg, red, pink, yellow, green, blue, orange, purple, cyan, magenta, lime) 1;
+        border-radius: 3px;
     }
 
-    .btnsearch {
-        position: relative;
-        margin-left: 19rem;
-        width: 3rem;
-        margin-top: 0.2rem;
-        height: 2.6rem;
+    .MsgInput {
+        font-size: 18px;
+        background-color: #40414f;
         border: none;
-        cursor: pointer;
+        outline: none;
+        width: 20.3rem;
+        height: 30px;
         color: white;
-        background-color: #6D435A;
-        padding-bottom: 0.6rem;
+        padding: 1px;
+        font-weight: bold;
     }
+
 }
+
+.btn{
+    margin-top: 30rem;
+}
+

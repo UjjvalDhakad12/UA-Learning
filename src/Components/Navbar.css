@@ -6,16 +6,7 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    box-shadow: 3px 3px 5px black;
-}
-
-.logo {
-    height: 4rem;
-    width: 4rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 3rem;
-    box-shadow: 1px 1px 2px #B1EDE8;
+    box-shadow: 2px 2px 4px black;
 }
 
 .logo-name {

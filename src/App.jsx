@@ -7,7 +7,7 @@ function App() {
     <div>
       <Navbar />
       <Input />
-    </div>
+    </div >
   );
 }
 
