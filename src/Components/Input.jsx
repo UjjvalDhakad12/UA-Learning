@@ -76,7 +76,7 @@ const Input = () => {
                                                     zIndex: 1,
                                                 }}
                                             >
-                                                Hindi Meaning: {wordData[hoveredWord]}
+                                                {wordData[hoveredWord]}
                                             </div>
                                         )}
                                 </span>
@@ -101,6 +101,8 @@ const Input = () => {
                 {fullMeaning && (
                     <div
                         style={{
+                            width:"42rem",
+                            marginLeft:"18rem",
                             marginTop: "1rem",
                             padding: "1rem",
                             background: "#e9f7ef",
